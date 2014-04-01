@@ -4,7 +4,8 @@ vim-pivotal-tracker
 A vim plugin for interacting with pivotal tracker.
 
 Fair warning: right now, it depends on Java and it's *slow*. It gets the job
-done however.
+done however. I'm fully aware that this is an abomination, but wanted to
+write this using Clojure.
 
 ## Currently Supported
 
@@ -32,7 +33,6 @@ Also, add your pivotal token and project id to the top of pivotal.vim:
 
 ## TODO
 
-* Notify vimscripts, and pivotal-tracker's dev site of the plugin, tweet it
 * Update story name
 * Add/remove comments
 
