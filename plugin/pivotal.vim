@@ -1,8 +1,4 @@
-" Replace with your own values
-let s:token = "<your pivotal tracker token>"
-let s:project_id = "366911"
-
-let s:access_args = " --token " . s:token . " --project-id " . s:project_id
+let s:access_args = " --token " . g:token . " --project-id " . g:project_id
 let s:p_dir = expand('<sfile>:p:h')
 let s:jar_pre = 'java -jar ' . s:p_dir . '/../pt.jar'
 let s:lein_pre = 'lein run'

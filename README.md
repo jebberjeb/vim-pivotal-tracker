@@ -20,11 +20,11 @@ A JVM is required. "java" binary must be on the $PATH. Tested w/ Java 6.
 
 Using Pathogen, simply copy the vim-pivotal-tracker directory into ~/.vim/bundle.
 
-Also, add your pivotal token and project id to the top of pivotal.vim:
+Also, add the following to your .vimrc (or somewhere)
 
     " Replace with your own values
-    let s:token = "ec88145a606fa874895ed411cf"
-    let s:project_id = "966911"
+    let g:token = "ec88145a606f95ed411cf"
+    let g:project_id = "966911"
 
 ## Usage
 
